@@ -11,7 +11,6 @@ public class Jokenpo {
         
         do {
         int maquina = gerador.nextInt(3);
-        System.out.println(maquina);
         String x = JOptionPane.showInputDialog(null, "[0] - Pedra\n"
                 + "[1] - Papel\n"
                 + "[2] - Tesoura");
